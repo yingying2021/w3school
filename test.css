@@ -1,0 +1,378 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fdfcf8;
+}
+
+.logoRow {
+    padding: 25px 20px 4px 100px;
+    height: 70px;
+}
+
+.space1 {
+    height: 10px;
+}
+
+.logoColumn {
+    float: left;
+    width: auto;
+}
+
+.searchRow {
+    padding: 20px 20px 20px 700px;
+    float: left;
+    height: 50px;
+    width: auto;
+}
+
+.spaceLogo {
+    height: 130px;
+    float: left;
+    width: 0px;
+}
+
+.goButton {
+    background-color: #AE4141;
+    ;
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+
+.searchTextFeild {
+    width: 230px;
+    height: 25px;
+}
+
+.navFirst {
+    width: auto;
+    padding: 0px 100px 0px 100px;
+}
+
+.navigation {
+    width: 1230px;
+    height: 48px;
+    background-color: #E8E7E3;
+    padding-inline-start: 0px;
+}
+
+.navFirst ul li {
+    float: left;
+    padding: 10px 0px 0px 0px;
+    list-style: none;
+    display: block;
+    font-size: 20px;
+}
+
+
+/* .navFirst ul li a {
+    height: 48px;
+    width: 10px;
+} */
+
+.leftNav a {
+    text-decoration: none;
+}
+
+.rightNav a {
+    text-decoration: none;
+}
+
+.navFirst a {
+    text-decoration: none;
+}
+
+.navFirst a:link {
+    color: rgb(133, 129, 129);
+    padding: 10px 36.3px;
+}
+
+.navFirst a:visited {
+    background-color: #E8E7E3;
+    color: rgb(63, 60, 60);
+}
+
+.navFirst a:hover {
+    background-color: #333231;
+    color: lavender;
+}
+
+.navSecondRow {
+    padding: 0px 100px 0px 100px;
+}
+
+.verticalLine {
+    float: left;
+    width: 0.2%;
+    height: 2000px;
+    background: #cecec7;
+}
+
+.horiLine {
+    width: 800px;
+    height: 1px;
+    background: rgb(170, 173, 173);
+}
+
+.leftNav {
+    float: left;
+    width: 14.6%;
+    height: 2000px;
+    background-color: #fdfcf3;
+    line-height: inherit;
+}
+
+.content {
+    float: left;
+    width: 67%;
+    height: 2000px;
+    background-color: #fdfcf3;
+}
+
+.idea {
+    text-align: center;
+    width: 800px;
+}
+
+.idea1 {
+    width: 85%;
+    text-align: left;
+    float: left;
+}
+
+.content p {
+    font-size: 18px;
+}
+
+.content a {
+    border-bottom: 10px;
+}
+
+.rightNav {
+    float: left;
+    width: 14.6%;
+    height: 2000px;
+    background-color: #fdfcf3;
+    padding: 0px -40px;
+}
+
+.leftNav h2 {
+    font-size: 15px;
+    font-weight: 700;
+    float: inherit;
+    line-height: 0;
+    width: 100%;
+    padding: 5px 20px;
+    margin: 0px;
+}
+
+.leftNav ul {
+    float: inherit;
+    width: 100%;
+}
+
+.leftNav ul li {
+    float: inherit;
+    padding: 2px 0px 2px 0px;
+    list-style: none;
+    font-size: 12px;
+    width: 100%;
+    height: 26px;
+}
+
+.link_about a {
+    color: rgb(108, 191, 243);
+}
+
+.link_help a {
+    color: rgb(108, 191, 243);
+}
+
+.link_about a:hover {
+    border-bottom: 1px solid rgb(108, 191, 243);
+}
+
+.link_help a:hover {
+    border-bottom: 1px solid rgb(108, 191, 243);
+}
+
+.rightNav ul li {
+    float: left;
+    padding: 2px -10px 2px 0px;
+    list-style: none;
+    font-size: 12px;
+    width: 124%;
+    height: 30px;
+    line-height: 25px;
+    display: block;
+}
+
+.rightNav ul li a {
+    line-height: 25px;
+    display: block;
+    position: relative;
+    left: -40px;
+    text-indent: 40px;
+}
+
+.rightNav h2 {
+    font-size: 15px;
+    font-weight: 700;
+    float: inherit;
+    line-height: 1;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 0px;
+}
+
+.leftNav ul li a {
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+    left: -40px;
+    /* text-align: ljustifyeft; */
+    text-indent: 40px;
+    line-height: 25px;
+    display: block;
+}
+
+.leftNav ul li a:link {
+    color: rgb(44, 40, 40);
+}
+
+.leftNav ul li a:visited {
+    color: rgb(44, 40, 40);
+}
+
+.leftNav ul li a:hover {
+    color: hsl(25, 100%, 97%);
+    background-color: rgb(153, 148, 148);
+}
+
+.rightNav ul li a:link {
+    color: rgb(126, 60, 60);
+}
+
+.rightNav ul li a:hover {
+    color: honeydew;
+    background: rgb(175, 57, 57);
+}
+
+.idea1 a:link {
+    color: rgb(99, 30, 30);
+}
+
+.idea1 a:hover {
+    color: rgb(192, 59, 59);
+}
+
+.space10 {
+    height: 40px;
+}
+
+.space20 {
+    height: 15px;
+}
+
+.picture {
+    float: left;
+    width: 15%;
+}
+
+.friendshipLink {
+    width: 85%;
+    float: left;
+    text-align: left;
+}
+
+.code {
+    padding: 10px 100px;
+}
+
+.footer {
+    padding: 1960px 107px 10px 100px;
+}
+
+.p1 {
+    font-size: 12px;
+    background-color: rgb(229, 226, 226);
+    padding: 50px 0px 20px 0px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.p2 {
+    text-align: center;
+}
+
+.p2 a {
+    color: rgb(31, 30, 30);
+}
+
+.p2 a:hover {
+    color: indianred;
+}
+
+#d9 {
+    background-image: url(https://www.w3school.com.cn/ui2017/icon9.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 500px;
+    padding-top: 1.4rem;
+    float: left;
+}
+
+#d10 {
+    float: left;
+    width: 50%;
+    background-image: url(https://www.w3school.com.cn/ui2017/icon10.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 1.4rem;
+}
+
+#d9>h2,
+#d9>p {
+    margin-left: 3.4rem;
+    line-height: 0.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+}
+
+#d10>h2,
+#d10>p {
+    margin-left: 3.4rem;
+    margin-top: 1rem;
+    line-height: 0.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+}
+
+.code h2 {
+    color: rgb(194, 189, 189);
+}
+
+.code a {
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(167, 31, 31);
+    padding-bottom: 3px;
+}
+
+.code a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid rgb(245, 23, 23);
+}
+
+.partner a {
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(167, 31, 31);
+    padding-bottom: 2px;
+}
+
+.partner a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid rgb(245, 23, 23);
+}
